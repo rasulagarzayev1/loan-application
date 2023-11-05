@@ -1,0 +1,4 @@
+node_modules
+public
+coverage
+vite-env.d.ts

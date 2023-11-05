@@ -1,0 +1,26 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"projects": ["./tsconfig.json"]
+	},
+	"plugins": ["@typescript-eslint"],
+	"extends": [
+		"plugin:@typescript-eslint/recommended",
+		"plugin:vue/recommended"
+	],
+	"rules": {
+		// Enforce tabs over spaces
+		"indent": ["error", "tab"],
+		"tab-width": ["error", 4],
+
+		// Disallow trailing spaces
+		"no-trailing-spaces": ["error"],
+
+		// Disallow trailing commas
+		"comma-dangle": ["error", "never"],
+
+		// Require ending semicolons
+		"semi": ["error", "always"]
+	}
+}
+  
